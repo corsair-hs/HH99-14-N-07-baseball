@@ -36,7 +36,7 @@ function autoNumberCreate(n) {
 
 
 let count = 1;   // 도전횟수 카운트 변수 선언 및 초기값 할당
-console.log(`컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요! (${comNum})`)
+console.log(`컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!`)
 rl.setPrompt(`${count}번째 시도 : `);
 rl.prompt();
 rl.on(`line`, (input) => {
